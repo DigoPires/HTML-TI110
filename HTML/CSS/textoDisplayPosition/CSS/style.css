@@ -1,5 +1,6 @@
 /* Importar Fonte */
 @import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Pixelify+Sans&display=swap');
 
 /* Alinhamento de Texto */
 .direita{
@@ -75,6 +76,9 @@
 }
 
 /* Importar Fonte */
-.import-font{
+.import-font1{
     font-family: 'Croissant One', cursive;
+}
+.import-font2{
+    font-family: 'Pixelify Sans', cursive;
 }
