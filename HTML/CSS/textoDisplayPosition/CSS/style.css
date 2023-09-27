@@ -21,6 +21,8 @@
 }
 
 .justificado{
+    padding-left: 20px;
+    padding-right: 20px;
     text-align: justify;
     color: chocolate;
     border: 3px solid rgb(90, 23, 16);
