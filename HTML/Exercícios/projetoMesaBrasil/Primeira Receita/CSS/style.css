@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Inter:wght@300&family=Pixelify+Sans&display=swap');
+
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: rgb(83, 83, 83);
+    display: grid;
+    place-items: center;
+    color: white;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(3, 3, 63);
+}
+
+a{
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+p{
+    font-family: 'Inter', sans-serif;
+}
+
+.titulo{
+    border: 1px solid black;
+    background-image: url(../IMG/EsfirraCouveFlorTransparente.png);
+    background-size: cover;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-text-stroke: 1px black;
+    padding: 20px;
+}
+
+.titulo-escrito{
+    font-size: 30px;
+}
+
+.receita{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 0px 25px 0px 25px;
+    background-color: rgb(43, 43, 43);
+    border: 3px solid rgb(0, 0, 0);
+    width: 1200px;
+}
+
+.ingredientes-massa{
+    width: 500px;
+}
+

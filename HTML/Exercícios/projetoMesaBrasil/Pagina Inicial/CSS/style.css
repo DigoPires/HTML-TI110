@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Inter:wght@300&family=Pixelify+Sans&display=swap');
+
+body{
+    background-color: rgb(83, 83, 83);
+    display: grid;
+    place-items: center;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+p{
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    text-align: justify;
+}
+
+a{
+    font-family: 'Inter', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+header{
+    padding: 20px;
+}
+
+#logoMesaBrasil{
+    width: 300px;
+}
+
+main{
+    display: grid;
+    place-items: center;
+    color: white;
+    padding: 0px 25px 0px 25px;
+    background-color: rgb(43, 43, 43);
+    border: 3px solid rgb(0, 0, 0);
+    width: 1200px;
+}
+
+#content-img1{
+    align-items: center;
+    width: 1100px;
+    border: 1px solid black;
+}
+
+footer{
+    margin-top: 20px;
+    width: 1200px;
+    color: white;
+    padding: 0px 25px 0px 25px;
+    background-color: rgb(43, 43, 43);
+    border: 3px solid rgb(0, 0, 0);
+}
+
+.footer-paginas{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+#pagina1:hover{
+    color: rgb(163, 163, 163);
+}
+
+#pagina2:hover{
+    color: rgb(163, 163, 163);
+}
