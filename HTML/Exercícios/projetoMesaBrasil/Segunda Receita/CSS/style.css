@@ -31,7 +31,7 @@ p{
 
 .titulo{
     border: 3px solid black;
-    background-image: url(../IMG/couveFlorFundo.png);
+    background-image: url(../IMG/BoloFundo.png);
     background-size: auto;
     width: 800px;
     height: 100px;
@@ -44,33 +44,29 @@ p{
 .receita{
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin: 20px;
+    align-items: flex-start;
     margin-top: 100px;
-    padding: 0px 25px 0px 25px;
+    padding: 25px 25px 0px 25px;
     background-color: rgb(43, 43, 43);
     border: 3px solid rgb(0, 0, 0);
-    width: 1200px;
+    width: 1050px;
+    height: 440px;
     font-size: 20px;
 }
 
-.receita1{
+.esquerda{
     width: 500px;
     padding-left: 20px;
 }
 
-/* .recheio1{
-    margin-top: 120px;
-} */
-
-.receita2{
+.direita{
     width: 500px;
 }
 
 .paginas{
     background-color: rgb(43, 43, 43);
     border: 3px solid rgb(0, 0, 0);
-    width: 1200px;
+    width: 1050px;
     padding: 20px;
     position: fixed;
     bottom: 20px;
