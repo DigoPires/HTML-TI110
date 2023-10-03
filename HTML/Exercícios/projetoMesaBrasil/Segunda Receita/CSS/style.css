@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Inter:wght@300&family=Pixelify+Sans&display=swap');
+
+body{
+    font-family: 'Inter', sans-serif;
+    display: grid;
+    place-items: center;
+    color: white;
+    background-image: url(../IMG/backgroundTransparente.png);
+    background-size: cover;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+p{
+    font-family: 'Inter', sans-serif;
+    text-align: justify;
+}
+
+.titulo{
+    border: 3px solid black;
+    background-image: url(../IMG/couveFlorFundo.png);
+    background-size: auto;
+    width: 800px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.receita{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    margin-top: 100px;
+    padding: 0px 25px 0px 25px;
+    background-color: rgb(43, 43, 43);
+    border: 3px solid rgb(0, 0, 0);
+    width: 1200px;
+    font-size: 20px;
+}
+
+.receita1{
+    width: 500px;
+    padding-left: 20px;
+}
+
+/* .recheio1{
+    margin-top: 120px;
+} */
+
+.receita2{
+    width: 500px;
+}
+
+.paginas{
+    background-color: rgb(43, 43, 43);
+    border: 3px solid rgb(0, 0, 0);
+    width: 1200px;
+    padding: 20px;
+    position: fixed;
+    bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}

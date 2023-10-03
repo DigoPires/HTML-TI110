@@ -2,19 +2,20 @@
 
 body{
     font-family: 'Inter', sans-serif;
-    background-color: rgb(83, 83, 83);
     display: grid;
     place-items: center;
     color: white;
+    background-image: url(../IMG/backgroundTransparente.png);
+    background-size: cover;
 }
 
 h1{
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
 }
 
 h3{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(3, 3, 63);
 }
 
 a{
@@ -25,23 +26,19 @@ a{
 
 p{
     font-family: 'Inter', sans-serif;
+    text-align: justify;
 }
 
 .titulo{
-    border: 1px solid black;
-    background-image: url(../IMG/EsfirraCouveFlorTransparente.png);
-    background-size: cover;
-    width: 500px;
-    height: 300px;
+    border: 3px solid black;
+    background-image: url(../IMG/couveFlorFundo.png);
+    background-size: auto;
+    width: 800px;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    -webkit-text-stroke: 1px black;
     padding: 20px;
-}
-
-.titulo-escrito{
-    font-size: 30px;
 }
 
 .receita{
@@ -49,13 +46,43 @@ p{
     justify-content: center;
     align-items: center;
     margin: 20px;
+    margin-top: 100px;
     padding: 0px 25px 0px 25px;
     background-color: rgb(43, 43, 43);
     border: 3px solid rgb(0, 0, 0);
     width: 1200px;
+    font-size: 20px;
 }
 
-.ingredientes-massa{
+.receita1{
+    width: 500px;
+    padding-left: 20px;
+}
+
+/* .recheio1{
+    margin-top: 120px;
+} */
+
+.receita2{
     width: 500px;
 }
 
+.paginas{
+    background-color: rgb(43, 43, 43);
+    border: 3px solid rgb(0, 0, 0);
+    width: 1200px;
+    padding: 20px;
+    position: fixed;
+    bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+#proximo:hover{
+    color: rgb(163, 163, 163);
+}
+
+#anterior:hover{
+    color: rgb(163, 163, 163);
+}
