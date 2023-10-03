@@ -1,84 +1,84 @@
-@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Inter:wght@300&family=Pixelify+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Croissant+One&family=Inter:wght@300&family=Pixelify+Sans&display=swap");
 
-body{
-    font-family: 'Inter', sans-serif;
-    display: grid;
-    place-items: center;
-    color: white;
-    background-image: url(../IMG/backgroundTransparente.png);
-    background-size: cover;
+body {
+  font-family: "Inter", sans-serif;
+  display: grid;
+  place-items: center;
+  color: white;
+  background-image: url(../IMG/backgroundTransparente.png);
+  background-size: cover;
 }
 
-h1{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 50px;
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
 }
 
-h3{
-    font-family: Arial, Helvetica, sans-serif;
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-a{
-    font-family: 'Inter', sans-serif;
-    text-decoration: none;
-    color: white;
+a {
+  font-family: "Inter", sans-serif;
+  text-decoration: none;
+  color: white;
 }
 
-p{
-    font-family: 'Inter', sans-serif;
-    text-align: justify;
+p {
+  font-family: "Inter", sans-serif;
+  text-align: justify;
 }
 
-.titulo{
-    border: 3px solid black;
-    background-image: url(../IMG/couveFlorFundo.png);
-    background-size: cover;
-    width: 800px;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
+.titulo {
+  border: 3px solid black;
+  background-image: url(../IMG/couveFlorFundo.png);
+  background-size: cover;
+  width: 800px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
 }
 
-.receita{
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    margin-top: 100px;
-    padding: 25px 25px 0px 25px;
-    background-color: rgb(43, 43, 43);
-    border: 3px solid rgb(0, 0, 0);
-    width: 1050px;
-    height: 500px;
-    font-size: 20px;
+.receita {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 100px;
+  padding: 25px 25px 0px 25px;
+  background-color: rgb(43, 43, 43);
+  border: 3px solid rgb(0, 0, 0);
+  width: 1050px;
+  height: 500px;
+  font-size: 20px;
 }
 
-.esquerda{
-    width: 500px;
-    padding-left: 20px;
+.esquerda {
+  width: 500px;
+  padding-left: 20px;
 }
 
-.direita{
-    width: 500px;
+.direita {
+  width: 500px;
 }
 
-.paginas{
-    background-color: rgb(43, 43, 43);
-    border: 3px solid rgb(0, 0, 0);
-    width: 1050px;
-    padding: 20px;
-    position: fixed;
-    bottom: 20px;
-    display: flex;
-    justify-content: space-around;
-    font-size: 20px;
+.paginas {
+  background-color: rgb(43, 43, 43);
+  border: 3px solid rgb(0, 0, 0);
+  width: 1050px;
+  padding: 20px;
+  position: fixed;
+  bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
 }
 
-#proximo:hover{
-    color: rgb(163, 163, 163);
+#proximo:hover {
+  color: rgb(163, 163, 163);
 }
 
-#anterior:hover{
-    color: rgb(163, 163, 163);
+#anterior:hover {
+  color: rgb(163, 163, 163);
 }
