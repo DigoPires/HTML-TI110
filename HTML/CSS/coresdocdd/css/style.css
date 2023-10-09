@@ -1,0 +1,64 @@
+/* Background do corpo */
+body{
+    background-color: #e0e0c4;
+}
+
+/* Background Color */
+.background-color{
+    background-color: #1c8eeb;
+}
+
+/* Background Opacity */
+.bg-opacity > p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.bg-100-opacity{
+    background-color: rgb(28, 142, 235);
+}
+.bg-75-opacity{
+    background-color: rgba(28, 142, 235, 0.75);
+}
+.bg-50-opacity{
+    background-color: rgba(28, 142, 235, 0.50);
+}
+.bg-25-opacity{
+    background-color: rgba(28, 142, 235, 0.25);
+}
+
+/* Nome das cores */
+.color-name{
+    color: crimson;
+}
+
+/* RGB */
+.color-rgb{
+    color: rgb(255,0,0);
+}
+.rgb-misturado{
+    color: rgb(145,45,220);
+}
+
+/* RGBA */
+.color-rgba{
+    color: rgba(255, 0, 0, 0.4);
+}
+
+/* HEX */
+/* #112233 -> #123 */
+/* #FFFFFF -> #FFF */
+.color-hex{
+    color: #55a398;
+}
+.color-hex2{
+    color: #1c8eeb;
+}
+
+/* HSL */
+.color-hsl{
+    color: hsl(280, 80%, 50%);
+}
+.color-hsl2{
+    color: hsl(56, 81%, 43%);
+}
