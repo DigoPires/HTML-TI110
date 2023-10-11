@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    left: 0;
+}
+
+body{
+    background-image: url(../IMG/NovoBackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+header{
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+}
+
+main{
+    background-color: rgb(37, 37, 37);
+}
