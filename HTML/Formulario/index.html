@@ -85,6 +85,19 @@
             </fieldset>
         </div>
 
+        <!-- Datalist -->
+        <div>
+            <label for="livro">Selecione o livro</label>
+            <input type="text" name="livro" list="livros">
+
+            <datalist id="livros">
+                <option value="Crepusculo"></option>
+                <option value="Harry Potter e a Pedra Filosofal"></option>
+                <option value="A Hospedeira"></option>
+                <option value="Harry Potter e o Cálice de Fogo"></option>
+            </datalist>
+        </div>
+
         <!-- Submit -->
         <input type="submit" value="Enviar" />
     </form>
