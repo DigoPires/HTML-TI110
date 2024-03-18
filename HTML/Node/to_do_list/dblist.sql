@@ -23,3 +23,5 @@ select * from tbtarefas;
 
 insert into tbtarefas(titulo,descricao, data, status) values
 ('teste','desc','2024-03-08',1);
+
+update tbtarefas set titulo = "", descricao = "", data = "", status = 1 where id = 7
